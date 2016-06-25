@@ -1,0 +1,53 @@
+
+#contglobalcarrito
+{
+	width:280px;
+	height:280px;
+	margin-left:80px;
+	float:left;
+    border:1px solid #e3e3e3;
+    border-radius:8px;
+	/*overflow:hidden;*/
+}
+
+#titulocarrito
+{
+  	text-align:center;
+	
+}
+
+#cabeceracarrito 
+{
+	width:100%;
+	overflow:hidden;
+	padding:3px 0;
+	
+
+}
+
+
+#cabeceracarrito li
+{
+  float:left;
+  margin-right:8px;
+  list-style-type:none;
+  border-right:1px solid #898b8b;
+ 
+}
+
+#carrito
+{
+	width:100%;
+	height:80px;
+	background-color:;
+    position:relative;
+	margin:0px 0px 0px 0px;
+}
+
+
+.carritovacio
+{
+	text-align:center;
+	
+	
+}

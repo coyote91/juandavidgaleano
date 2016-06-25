@@ -1,0 +1,76 @@
+
+nav.acceder2 ul 
+{
+  margin:  0 px;
+  padding: 0 px;
+  margin-left: 350px ;    
+  list-style: none;
+  position: relative;
+  float: left;
+  background: #fff; 
+ 
+}
+
+li a span {
+  font-size: 10px;
+}
+nav.acceder2 #login,
+nav.acceder2 #signup a {
+  display: inline-block;
+  font-family: cursive;    
+  font-size: 16px;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 8px;
+  text-decoration: none;
+  color: #000000;
+  text-shadow: 0 1px 0 #fff; 
+}
+nav.acceder2 #login-content2 {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: 999;    
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
+  border-radius: 10px 0 10px 10px;
+  width: 250px; 
+}
+input#user, input#pass {
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin-bottom: 10px;
+  width: 238px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px #ccc inset;
+}
+#submit {    
+  background-color: #359AC2;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+  border: 1px solid #1B6F91;
+ 
+  height: 30px;
+  padding: 0;
+  width: 100px;
+  cursor: pointer;
+  font: bold 14px Arial, Helvetica;
+  color: #fff;
+}
+#submit:hover,
+#submit:focus {    
+  background-color: #044E6B;
+} 
+#submit:active {   
+  outline: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
+}
+label {
+  float: left;
+  line-height: 19px;
+  font-size: 13px;
+  color: #666;
+}

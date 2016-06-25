@@ -1,0 +1,233 @@
+body{
+	background-image:url("../img/sayagata.png");
+	
+}
+
+#contglobal{
+	
+	width:1400px;
+	height:auto;
+	background-color:;
+   position:relative;
+   margin: 0px auto;
+}
+
+
+
+.clearfix:after {
+    content:”.”;
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+.clearfix {display:block;}
+/* End hide from IE Mac */
+
+
+#contmenu{
+	float:left;
+	width:300px;
+	height:auto;
+	background-color:;
+	padding:10px;
+}
+
+/*#contmenu {
+	
+	position:relative;
+	margin: 0px auto;
+	
+}
+*/
+.continfo{
+	
+	float:right;
+	/*min-width:680px;*/
+	width:999px;
+	height:auto;
+	background-color:;
+	border-style:solid;
+	border-color: #ccc;
+	border-width:1px;
+	padding:10px;
+	
+}
+
+
+#listamenu{
+	
+	width:300px;
+	height:auto;
+	background-color:;
+	list-style-type:none;
+}
+
+#listamenu {
+	
+	position:relative;
+	margin: 0px auto;
+	
+}
+
+#clientes{
+	
+	width:auto;
+	min-height:90px;
+	height:auto;
+	background-color:#EE5959;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+
+#usuarios{
+	
+	width:auto;
+	min-height:90px;
+	height:auto;
+	background-color:#23B3C6;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+
+#articulos{
+	
+	width:auto;
+	min-height:90px;
+	height:auto;
+	background-color:#B2BABB;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+
+#proveedores{
+	
+	width:auto;
+	min-height:90px;
+	height:auto;
+	background-color:#32F178;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+#pedidos{
+	
+	width:auto;
+	min-height:90px;
+	height:auto;
+	background-color:#FBF276;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+
+#venta{
+	
+	width:auto;
+	min-height:90px;
+	height:auto;
+	background-color:orange;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+
+
+#comprar{
+	
+	width:auto;
+	min-height:90px;
+	height:auto;
+	background-color:orange;
+	border-radius:20px;
+	margin-bottom:10px;
+}
+
+
+/***********
+ *
+ *   lista de productos y categorias
+ * 
+ *  ******************/
+
+
+.cajacategoria{
+	
+	width:200px;
+	/*min-height:10px;*/
+	float:left;
+	margin-left:10px;
+	height:195px;
+	border-style:dashed;
+	border-width:1px;
+	border-color:#CCCCCC;
+	
+}
+
+img{
+	 max-width:100%;
+	 height:auto;
+}
+
+.productimage{
+	
+	border-top: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+    margin: 0 auto 4px;
+    min-height: 160px;
+}
+
+
+
+.cajaproducto{
+	
+	width:200px;
+	/*min-height:10px;*/
+	height:290px;
+	border-style:dashed;
+	border-width:1px;
+	border-color:#CCCCCC;
+	overflow:hidden;
+	
+}
+
+
+#cntdetalleimagen{
+
+width:280px;
+height:280px;
+background-color:;	
+float:left;
+
+}
+
+
+
+#cntdetalleproducto{
+
+width:280px;
+height:280px;
+background-color:;	
+float:left;
+margin-left:20px;
+overflow:hidden;
+	
+}
+
+.precio{
+	
+  color:red;	
+}
+
+h3 a 
+{
+  
+ color:green;   	
+	
+}
+
